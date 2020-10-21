@@ -1,0 +1,15 @@
+body {
+    background: black;
+    color: white;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    background: white;
+}
+
+.menu {
+    display: block;
+}

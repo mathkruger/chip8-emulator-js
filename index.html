@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>CHIP8 Emulator</title>
+</head>
+
+<body>
+    <div class="menu">
+        <h2>CHIP-8 Emulator</h2>
+        <p>Escolha o jogo: </p>
+        <select id="jogo">
+            <option value="15PUZZLE">15PUZZLE</option>
+            <option value="TETRIS">TETRIS</option>
+            <option value="INVADERS">INVADERS</option>
+        </select>
+        <button id="play">Jogar</button>
+    </div>
+    
+    <canvas></canvas>
+    <script type="module" src="scripts/chip8.js"></script>
+</body>
+
+</html>
